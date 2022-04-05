@@ -1,0 +1,36 @@
+package Application;
+
+import java.util.Scanner;
+
+public class MainCode {
+
+	public static void main(String[] args) {
+		
+		int i = 0;
+		int o1 = 0;
+		int o2 = 0;
+		int o3 = 0;
+		int o4 = 0;
+		int white = 0;
+		int nll = 0;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println(":::::::::ELECTRONIC VOTE MANANGER 1.0::::::::::::");
+		System.out.print("Options to choose:1 - Jair Bolsonaro,2 - Lula,3 - Daciolo,4 - Fidelix,5 - White Vote,6 -Null vote ");
+		System.out.print("Enter your vote: ");
+		int o = input.nextInt();
+		
+		while(i !=0) {
+			
+			if(o == 4) {
+				
+				
+				
+			}
+			
+		}
+
+	}
+
+}
